@@ -21,8 +21,10 @@ In this monorepo example:
    error: lockfile had changes, but lockfile is frozen
 
 3. To fix it, you need to copy the entire workspace:
+   ```
    # Have to copy everything even though api only needs shared
    COPY . .
+   ```
 
 ## Desired Behavior
 
