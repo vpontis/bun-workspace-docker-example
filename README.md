@@ -29,8 +29,11 @@ In this monorepo example:
 ## Desired Behavior
 
 We should be able to:
+
+```
 # Only install api and its dependencies
-bun install --scope=packages/api
+bun install --filter api
+```
 
 This would allow efficient Docker builds that only include the necessary packages.
 
