@@ -2,7 +2,10 @@
   "name": "bun-workspace-docker-example",
   "version": "1.0.0",
   "workspaces": [
-    "packages/*"
+    "packages/api",
+    "packages/shared",
+    "packages/ui",
+    "packages/web"
   ],
   "scripts": {
     "start": "bun run packages/api/src/index.ts"
